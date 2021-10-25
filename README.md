@@ -1,4 +1,4 @@
-# Session ID - Session Title
+# DAT 160 - Create and manage Data Flows using SAP Data Intelligence
 
 ## Description
 
