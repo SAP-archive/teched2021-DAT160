@@ -10,7 +10,7 @@ This session introduces attendees to...
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+No knowledge on both SAP Data Intelligence and SAP Data Warehouse Cloud is needed to follow this tutorial.
 
 ## Exercises
 
