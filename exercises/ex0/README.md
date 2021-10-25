@@ -19,7 +19,7 @@ You will be provided with both a participant number and the associated password 
 Tenant: `DAT160` <br>
 Username: `TAXY` where XY is your assigned participant number<br>
 <br>
-Logon URL: <a href="https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?redirectUrl=%2Fapp%2Fdatahub-app-launchpad%2F&tenant=DAT164">SAP Data Intellligence </a><br> 
+Logon URL: <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Intellligence </a><br> 
 <br>
 
 
