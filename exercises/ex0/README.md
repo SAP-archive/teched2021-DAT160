@@ -1,26 +1,28 @@
-# Level 1 Heading
+# Getting started
 
-In this exercise, you will...
+Throughout all the exercises compiled in this repository, you will work with both a central SAP Data Intelligence tenant as well as a central SAP Data Warehouse Cloud tenant.
 
-## Level 2 Heading
+## Logging on to SAP Data Intelligence
 
-After completing these steps you will have....
+You will be provided with both a participant number and the associated password at the very beginning of the workshop.<br>
+<br>
+Tenant: `DAT160 <br>
+Username: `TAXY` where XY is your assigned participant number<br>
+<br>
+Logon URL: <a href="https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?redirectUrl=%2Fapp%2Fdatahub-app-launchpad%2F&tenant=DAT164">SAP Data Intellligence </a><br> 
+<br>
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+## Logging on to SAP Data Warehouse Cloud
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+You will be provided with both a participant number and the associated password at the very beginning of the workshop.<br>
+<br>
+Tenant: `DAT160 <br>
+Username: `TAXY` where XY is your assigned participant number<br>
+<br>
+Logon URL: <a href="https://vsystem.ingress.dh-wvsozbfum.dh-canary.shoot.live.k8s-hana.ondemand.com/login/?redirectUrl=%2Fapp%2Fdatahub-app-launchpad%2F&tenant=DAT164">SAP Data Intellligence </a><br> 
+<br>
+
 
 ## Summary
 
-Now that you have ... 
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Congratulations! You are perfectly set for proceeding with the upcoming exercises. For this matter, please get started with [Exercise 1](../ex1/README.md)
