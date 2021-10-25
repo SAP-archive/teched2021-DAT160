@@ -19,7 +19,7 @@ You will be provided with both a participant number and the associated password 
 Tenant: `DAT160` <br>
 Username: `TAXY` where XY is your assigned participant number<br>
 <br>
-Logon URL: <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Intellligence </a><br> 
+Logon URL: <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Warehouse Cloud </a><br> 
 <br>
 
 
