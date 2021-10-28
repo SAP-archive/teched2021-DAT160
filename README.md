@@ -30,12 +30,14 @@ Fortunately in a former project **SenDi** has already developed 2 pipelines with
 1. Downloads on a monthly basis the weather stations
 2. Downloads on weekly basis the weather stations
 
-What needs to be done is to map to each device the nearest weather station. 
+What needs to be done, is to map to each device to the nearest weather station. 
 
 Subsequently we like to collect further data as the 
 
 * **services** table containing the repair services SenDi had to do for the devices and 
 * past **weather data** measured near to the devices. 
+
+Finally we like to merge all data into one data model with the Data Flow engine of SAP Data Warehouse Cloud. 
 
 
 
