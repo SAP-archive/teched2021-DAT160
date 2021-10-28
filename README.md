@@ -25,12 +25,21 @@ They first want to start in Germany where they have 1000 devices of 7 product ty
 
 ![Weather stations in Germany](./images/weatherstations.png)
 
-Fortunately in a former project **SenDi** has already developed 2 pipelines that 
+Fortunately in a former project **SenDi** has already developed 2 pipelines with SAP Data Intelligence that 
 
 1. Downloads on a monthly basis the weather stations
 2. Downloads on weekly basis the weather stations
 
 What needs to be done is to map to each device the nearest weather station. 
+
+Subsequently we like to collect further data as the 
+
+* **services** table containing the repair services SenDi had to do for the devices and 
+* past **weather data** measured near to the devices. 
+
+
+
+
 
 
 
