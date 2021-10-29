@@ -30,7 +30,9 @@ Fortunately in a former project **SenDi** has already developed 2 pipelines with
 1. Downloads on a monthly basis the weather stations
 2. Downloads on weekly basis the weather stations
 
-What needs to be done, is to map to each device to the nearest weather station. 
+What needs to be done, is to map each device to the nearest weather station. For this read the data sources of all devices and the list of weather stations and use a "next-neighbour"-algorithm encapsulated in a ready-to-use custom operator **next neighbour**. 
+
+**CHRISTIAN AND BABACAR section:**
 
 Subsequently we like to collect further data as the 
 
@@ -40,12 +42,15 @@ Subsequently we like to collect further data as the
 Finally we like to merge all data into one data model with the Data Flow engine of SAP Data Warehouse Cloud. 
 
 
+### SAP Application Used
 
+These SAP Applications are used for the exercises: 
 
-
-
-
-
+* SAP Data Intelligence
+	* Modeller
+* SAP Data Warehouse Cloud
+	* Data Flow
+* Optional: SAP Analytics Cloud   
 
 ### Data Sources
 
@@ -65,20 +70,16 @@ No knowledge on both SAP Data Intelligence and SAP Data Warehouse Cloud is neede
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 1 - SAP Data Intelligence](exercises/ex1/)
+    - [Exercise 1.1 - Review Data Collection Pipelines](exercises/ex1#exercise-11-sub-exercise-1-description)
+    - [Exercise 1.2 - Create New Pipeline for Advanced Processing](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
 
-  
-**OR** Link to the Tutorial Navigator for example...
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
 
 **IMPORTANT**
 
