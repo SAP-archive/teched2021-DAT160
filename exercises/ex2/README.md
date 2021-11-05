@@ -12,7 +12,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 2. Specify the following information:<br>
    <br> E-Mail or User Name: `christian.tietz+0XY@sap.com`  where XY is your assigned participant number
    <br> Password: `Welcome01`<br>
-   to get to the SAP Data Warehouse Cloud Home Screen. 
+   <br>to get to the SAP Data Warehouse Cloud Home Screen. 
 
 ## Exercise 2.2 - Build a consolidated SAP Data Warehouse Cloud model 
    
