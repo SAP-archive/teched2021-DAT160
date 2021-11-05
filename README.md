@@ -49,7 +49,7 @@ These SAP Applications are used for the exercises:
 * SAP Data Intelligence
 	* Modeller
 * SAP Data Warehouse Cloud
-	* Data Flow
+	* Data Builder (including Data Flow Builder and Graphical View Builder)
 * Optional: SAP Analytics Cloud   
 
 ### Data Sources
