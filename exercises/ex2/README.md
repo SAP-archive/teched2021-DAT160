@@ -22,8 +22,9 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_5.png)<br>
 7. We notice that the usage of Data Flows is enabled for this connection which is exactly what we need in what follows<br> 
 <br>![](./images/ex2_5_1.png)<br>
-8. 
-
+8. As the next step we switch to the `Data Builder` component of SAP Data Warehouse Cloud<br> 
+<br>![](./images/ex2_5_2.png)<br>
+9. 
 
 
 
