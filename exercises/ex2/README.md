@@ -11,9 +11,10 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_0.png)
 2. Now, you can enter the following information:<br>
    <br> E-Mail or User Name: `christian.tietz+0XY@sap.com`  where XY is your assigned participant number<br>
-   <br> Password: `Welcome01`
-<br>
-
+   <br> Password: `Welcome01`<br>
+3. Now, you should see the Home Screen of SAP Data Warehouse Cloud. Just click on the highlighted icon to get to your associated SAP Data Warehouse Cloud Space<br> 
+<br>![](./images/ex2_1.png)<br>
+4. 
 
 
 
