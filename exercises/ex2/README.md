@@ -21,7 +21,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 6. You will realize that a local connection of type SAP HANA has already been created. As a next step, we will tick of this connection and validate it<br> 
 <br>![](./images/ex2_5.png)<br>
 7. We notice that the usage of Data Flows is enabled for this connection which is exactly what we need in what follows<br> 
-<br>![](./images/ex2_6.png)<br>
+<br>![](./images/ex2_5_1.png)<br>
 8. 
 
 
