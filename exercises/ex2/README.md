@@ -5,7 +5,9 @@ In this exercise, we will create...
 
 ## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
 
-As a matter of fact, [Exercise 1](../ex1/README.md).
+In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Warehouse Cloud using SAP Data Intelligence Cloud. Apart from that, there are also three existing tables in HANA Cloud that we want to use to build a consolidated table containing all the relevant information we need to derive insights going forward. Before starting off with modeling in SAP Data Warehouse Cloud we will logon to SAP Data Warehouse Cloud for the first time.
+
+1. Click on the link 
 
 1. Create a new graph by clicking on the associated icon
 <br>![](./images/ex2_1.png)
