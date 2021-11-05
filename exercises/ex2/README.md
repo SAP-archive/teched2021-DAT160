@@ -8,7 +8,7 @@ In this exercise, we will create...
 As a matter of fact, [Exercise 1](../ex1/README.md).
 
 1. Create a new graph by clicking on the associated icon
-<br>![](./images/Ex2_1.png)
+<br>![](/exercises/ex2/images/Ex2_1.png)
 2. Once the new graph is appearing we immediately change its name by clicking on <b> Save </b>
 <br>![](./images/Ex2_2.png)
 3. Specify both the name of the graph as well as the description of the graph as highlighted in the screeenshot below
