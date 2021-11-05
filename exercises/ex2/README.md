@@ -18,9 +18,11 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_2.png)<br>
 5. Make yourself familiar with the different areas of your assigned SAP Data Warehouse Cloud space. Now, we choose to take a look at the `Connections` tab<br> 
 <br>![](./images/ex2_3.png)<br>
-6. You will realize that a local connection of type SAP HANA has already been created<br> 
-<br>![](./images/ex2_4.png)<br>
-7. 
+6. You will realize that a local connection of type SAP HANA has already been created. As a next step, we will tick of this connection and validate it<br> 
+<br>![](./images/ex2_5.png)<br>
+7. We notice that the usage of Data Flows is enabled for this connection which is exactly what we need in what follows<br> 
+<br>![](./images/ex2_6.png)<br>
+8. 
 
 
 
