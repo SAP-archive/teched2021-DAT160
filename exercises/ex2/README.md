@@ -1,6 +1,23 @@
+
 # Exercise 2 - Exercise 2 Description
 
 In this exercise, we will create...
+
+## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
+
+As a matter of fact, [Exercise 1](../ex1/README.md).
+
+1. Create a new graph by clicking on the associated icon
+<br>![](./images/Ex2_1.png)
+2. Once the new graph is appearing we immediately change its name by clicking on <b> Save </b>
+<br>![](./images/Ex2_2.png)
+3. Specify both the name of the graph as well as the description of the graph as highlighted in the screeenshot below
+<br>![](./images/Ex2_3.png)</br><br>
+
+
+
+
+
 
 ## Exercise 2.1 Sub Exercise 1 Description
 
