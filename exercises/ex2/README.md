@@ -10,8 +10,9 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 1. Logon to <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Warehouse Cloud </a><br> 
 <br>![](./images/ex2_0.png)
 2. Now, you can enter the following information:<br>
-   E-Mail or User Name: christian.tietz+0XY@sap.com
-   Password: Welcome01
+   <br> E-Mail or User Name: `christian.tietz+0XY@sap.com`  where XY is your assigned participant number<br>#
+   <br> Password: `Welcome01`
+<br>
 
 
 
