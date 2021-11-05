@@ -12,6 +12,10 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 2. Specify the following information:<br>
    <br> E-Mail or User Name: `christian.tietz+0XY@sap.com`  where XY is your assigned participant number
    <br> Password: `Welcome01`<br>
+   to get to the SAP Data Warehouse Cloud Home Screen. 
+
+## Exercise 2.2 - Build a consolidated SAP Data Warehouse Cloud model 
+   
 3. Now, you should see the Home Screen of SAP Data Warehouse Cloud. Just click on the highlighted icon to get to your associated SAP Data Warehouse Cloud Space<br> 
 <br>![](./images/ex2_1.png)<br>
 4. Just click on your assigned space in the SAP Data Warehouse Cloud Space Management component<br> 
@@ -24,7 +28,9 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_5_1.png)<br>
 8. As the next step we switch to the `Data Builder` component of SAP Data Warehouse Cloud<br> 
 <br>![](./images/ex2_5_2.png)<br>
-9. 
+9. We select the `Data Flow` component<br> 
+<br>![](./images/ex2_6.png)<br>
+10. Now, 
 
 
 
