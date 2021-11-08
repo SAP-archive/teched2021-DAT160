@@ -90,7 +90,9 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_26.png)<br>
 30. Let us repeat the steps for the `Join 2` Operator. We see that we are going to apply an `Inner Join` condition on the column `SERIAL_NO`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen <br>
 <br>![](./images/ex2_27.png)<br>
-31. 
+31. As the next step, we once again drag & drop the `Join` Operator from the `Operators` bar to the Data Flow canvas to finally join the outputs of both join operations that have been applied in the previous steps. As before we do connect the respective output ports and input ports accordingly<br>
+<br>![](./images/ex2_29.png)<br>
+32. 
 ## Summary
 
 You've now ...
