@@ -1,7 +1,7 @@
 
 # Exercise 2 - Exercise 2 Description
 
-In this exercise, we will create...
+In this exercise, we will utilize SAP Data Warehouse Cloud to create an analytical data model which can be consumed by SAP Analytics Cloud 
 
 ## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
 
@@ -30,7 +30,9 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_5_2.png)<br>
 9. We select the `Data Flow` component<br> 
 <br>![](./images/ex2_6.png)<br>
-10. Now, 
+10. Take a moment to familiarize yourself with the Data Flow environment in SAP Data Warehouse Cloud. Click on the `Sources` tab<br> 
+<br>![](./images/ex2_7.png)<br>
+11. 
 
 
 
