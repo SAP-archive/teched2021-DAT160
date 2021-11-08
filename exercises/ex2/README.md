@@ -54,7 +54,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_17.png)<br>
 21. Once you have done that there are three options you can choose in principle. We select the option `Remove Column`<br>
 <br>![](./images/ex2_17_1.png)<br>
-22. Now we do proceed exactly as described in the aforementioned steps 20 and 21 and remove the following columns from the `Projection 1` Operator: 
+22. Now we do proceed exactly as described in the aforementioned steps 20 and 21 and remove the following columns from the `Projection 1` Operator: <br>
 - `LONGITUDE_DEVICE` <br>
 - `HEIGHT` <br>
 - `LATITUDE_STATION` <br>
@@ -62,7 +62,25 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 - `DISTANCE` <br>
 You will end up with having five columns remaining as output in the Projection 1 Operator<br>
 <br>![](./images/ex2_17_2.png)<br>
-23. 
+23. At this stage we proceed with applying a projection on the second table `DAILY_WEATHER`. For this purpose we do essentially repeat the steps 17 to 22 from above. Precisely we remove the following columns as output from the created `Projection 2` Operator:<br>
+- `MAX_WINDGUST` <br>
+- `MEAN_WIND_VELOCITY` <br>
+- `SNOW_DEPTH` <br>
+- `CLOUD_COVER` <br>
+- `VAPOR_PRESSURE` <br>
+- `MEAN_PRESSURE` <br>
+- `MEAN_TEMPERATURE` <br>
+- `MEAN_REL_HUMIDITY` <br>
+- `MAX_TEMPERATURE` <br>
+- `MIN_TEMPERATURE` <br>
+- `MIN_AIR_TEMPERATURE` <br>
+You will end up with having five columns remaining as output in the Projection 2 Operator<br>
+<br>![](./images/ex2_18.png)<br>
+24. Moreover, we also apply a projection on the third table `DEVICES`. For this purpose we do essentially repeat the steps 17 to 22 from above. Precisely we remove the two columns `LATITUDE` and `LONGITUDE` as output from the created `Projection 3` Operator. As a result, the following output then remains:<br>
+<br>![](./images/ex2_19.png)<br>
+25. Last but not least, we finally apply a projection on the fourth table `SERVICES`. After having repeated all the steps 17 to 22 from above and removing the single column `SERVICE_DATE` the output of the highlighted `Projection 4` Operator will look as follows:<br>
+<br>![](./images/ex2_20.png)<br>
+26. 
 ## Summary
 
 You've now ...
