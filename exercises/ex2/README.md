@@ -88,8 +88,9 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_25.png)<br>
 29. We do realize that we are going to apply an `Inner Join` condition on the column `STATIONS_ID`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen<br>
 <br>![](./images/ex2_26.png)<br>
-30. 
-
+30. Let us repeat the steps for the `Join 2` Operator. We see that we are going to apply an `Inner Join` condition on the column `SERIAL_NO`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen <br>
+<br>![](./images/ex2_27.png)<br>
+31. 
 ## Summary
 
 You've now ...
