@@ -48,6 +48,13 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_14.png)<br>
 18. We do realize that both the Table operator and the Projection operator do have ports that are exposed (cf. the area in the screenshot marked in red). Just hoover with your mouse over the output port of the Table operator and draw a line from this mentioned output port to the input port of the Projection operator to connect both<br>
 <br>![](./images/ex2_15.png)<br>
+19. Right now, just click on the Projection Operator named `Projection 1`. Then switch to the `Details` tab on the right hand side of the Data Flow screen. You will get to more detailed information about the columns, filter applied (if at all) and so on<br>
+<br>![](./images/ex2_16.png)<br>
+20. Our goal is to remove columns that are not needed. We start off with the column `LATITUDE_DEVICE` that we would like to remove completely. To proceed with this, just click on the three dots on the right hand side when selecting the mentioned column <br>
+<br>![](./images/ex2_17.png)<br>
+21. Once you have done that there are three options you can choose in principle. We select the option `Remove Column`<br>
+<br>![](./images/ex2_18.png)<br>
+22. 
 
 ## Summary
 
