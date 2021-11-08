@@ -32,8 +32,8 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_6.png)<br>
 10. Take a moment to familiarize yourself with the Data Flow environment in SAP Data Warehouse Cloud. Click on the `Sources` tab<br> 
 <br>![](./images/ex2_7.png)<br>
-11. 
-
+11. Select the marked area in the Sources tab. This area represents the content that is available in the associated HANA Cloud Database schema accessible from within your assigned SAP Data Warehouse Cloud space (cf. Step 4 from above) <br> 
+<br>![](./images/ex2_9.png)<br>
 
 
 
