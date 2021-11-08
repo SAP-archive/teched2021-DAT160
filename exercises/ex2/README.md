@@ -40,7 +40,13 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_11.png)<br>
 14. At this point, we want to enrich the imported content with other tables containing information about the Daily Weather, about the Devices used as well as about the Services that have been taken place in the past. For this sake we make use of the pre-populated HANA Database connection called `HANA TechEd` in your assigned SAP Data Warehouse Cloud space (cf. Steps 6 and 7 from above). To do so, we click on the `Connections` tab in same area on the left hand side of the entire Data Flow screen<br>
 <br>![](./images/ex2_12.png)<br>
-15. 
+15. Drag & drop the table `DAILY_WEATHER` to the Data Flow canvas<br>
+<br>![](./images/ex2_13.png)<br>
+16. Drag & drop the table `DEVICES` to the Data Flow canvas<br>
+<br>![](./images/ex2_14.png)<br>
+17. Drag & drop the table `SERVICES` to the Data Flow canvas<br>
+<br>![](./images/ex2_15.png)<br>
+18. 
 
 ## Summary
 
