@@ -94,7 +94,13 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_30.png)<br>
 32. Taking a look at the details of the `Join 3` Operator we can state that we are going to apply an `Inner Join` condition on the column `SERIAL_NO`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen <br>
 <br>![](./images/ex2_31.png)<br>
-33. 
+33. In order to avoid potential duplicates that could occur during the join operations that have been applied previously we make use of the `Script` Operator provided with the Data Flow component. The Script Operator itself allows to include basic Python Coding to apply transformations on incoming structured datasets. In return it provides structured output as well<br>
+<br>![](./images/ex2_32.png)<br>
+34. We now connect the output port of the `Join 3` Operator with the associated input port of the `Script 1` Operator. Subsequently, we select the `Script 1` Operator located in the Data Flow canvas and take a look at its details. We click on the pencil icon to switch to the inbuilt Script editor<br>
+<br>![](./images/ex2_34.png)<br>
+35. As stated in Step 33 we want to remove duplicate records. For this purpose we just include one line of simple Python coding leveraging the open source data analysis and manipulation tool `pandas`. <br> Precisely, we do incorporate coding `data=data.drop_duplicates()` in the function body highlighted in the Script Editor. Now, let us get back to the Data Flow canvas by selecting the Details tab at the upper right of the screen  <br>
+<br>![](./images/ex2_35.png). <br>
+36. 
 
 
 ## Summary
