@@ -99,8 +99,11 @@ You will end up with having five columns remaining as output in the Projection 2
 34. We now connect the output port of the `Join 3` Operator with the associated input port of the `Script 1` Operator. Subsequently, we select the `Script 1` Operator located in the Data Flow canvas and take a look at its details. We click on the pencil icon to switch to the inbuilt Script editor<br>
 <br>![](./images/ex2_34.png)<br>
 35. As stated in Step 33 we want to remove duplicate records that might occur. For this purpose we just include one line of simple Python coding leveraging the open source data analysis and manipulation tool `pandas`. <br> Precisely, we do incorporate coding `data=data.drop_duplicates()` in the function body highlighted in the Script Editor. Now, let us get back to the Data Flow canvas by selecting the Details tab at the upper right of the screen  <br>
-<br>![](./images/ex2_35.png). <br>
-36. 
+<br>![](./images/ex2_35.png)<br>
+36. At this stage we have almost accomplished the creation of our entire Data Flow. The only thing which is yet missing is to create a target table in SAP Data Warehouse Cloud which acts as a consolidated result set that is generated when executing the Data Flow at hand<br>
+To proceed with that we drag & drop the `Table` Operator from the `Operators` tab to the Data Flow canvas. Make sure that the table is labeled as `Target`<br>
+<br>![](./images/ex2_36.png)<br>
+37. 
 
 
 ## Summary
