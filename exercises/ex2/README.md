@@ -80,7 +80,7 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_19.png)<br>
 25. Last but not least, we finally apply a projection on the fourth table `SERVICES`. After having repeated all the steps 17 to 22 from above and removing the column `SERVICE_DATE` the output of the highlighted `Projection 4` Operator will look as follows:<br>
 <br>![](./images/ex2_20.png)<br>
-26. Just to recall what we want to do, our goal is to create a <b> consolidated </b> output containing information originating from all four aforementioned tables. Hence, as the next step we want to initially apply an `Inner Join` on both the two tables `TECHED2021_DEVICES_WEATHERSTATION_TAXY` (XY refers to your participant number) and `DAILY_WEATHER` as well as on the two tables `DEVICES` and `SERVICES`. <br> For this sake we drag & drop the `Join` Operator from the `Operators` bar to the Data Flow canvas twice<br>
+26. Just to recall what we want to do, our goal is to create a <b> consolidated </b> output containing information originating from all four tables that are part of the Data Flow as of now. Hence, as the next step we want to initially apply an `Inner Join` on both the two tables `TECHED2021_DEVICES_WEATHERSTATION_TAXY` (XY refers to your participant number) and `DAILY_WEATHER` as well as on the two tables `DEVICES` and `SERVICES`. <br> For this sake we drag & drop the `Join` Operator from the `Operators` bar to the Data Flow canvas twice<br>
 <br>![](./images/ex2_22.png)<br>
 27. 
 
