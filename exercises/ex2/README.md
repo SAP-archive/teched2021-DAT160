@@ -32,9 +32,10 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_6.png)<br>
 10. Take a moment to familiarize yourself with the Data Flow environment in SAP Data Warehouse Cloud. Click on the `Sources` tab<br> 
 <br>![](./images/ex2_7.png)<br>
-11. Select the marked area in the Sources tab. This area represents the content that is available in the associated HANA Cloud Database schema accessible from within your assigned SAP Data Warehouse Cloud space (cf. Step 4 from above) <br> 
+11. Select the marked area in the Sources tab. This area is referring to your assigned HANA Cloud Database schema accessible from within your assigned SAP Data Warehouse Cloud space (cf. Step 4 from above) and is containing the content that is available to you<br> 
 <br>![](./images/ex2_9.png)<br>
-
+12. Identify your associated table `TECHED2021_DEVICES_WEATHERSTATION_TAXY` and drag & drop it to the Data Flow canvas. Select `Import and Deploy` to proceed. Note that XY refers to your assigned participant number. <br> 
+<br>![](./images/ex2_10.png)<br>
 
 
 
