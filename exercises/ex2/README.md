@@ -82,11 +82,11 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_20.png)<br>
 26. Just to recall what we want to do, our goal is to create a <b> consolidated </b> output containing information originating from all four tables that are part of the Data Flow as of now. Hence, as the next step we want to initially apply an `Inner Join` on both the two tables `TECHED2021_DEVICES_WEATHERSTATION_TAXY` (XY refers to your participant number) and `DAILY_WEATHER` as well as on the two tables `DEVICES` and `SERVICES`. <br> For this sake we drag & drop the `Join` Operator from the `Operators` bar to the Data Flow canvas twice<br>
 <br>![](./images/ex2_22.png)<br>
-27. As depicted in step 18, let us connect the respective output ports of the tables with the associated input ports of the Join Operators. Next, we click on the first Join Operator and take a look at the details by selecting the `Details` tab <br>
+27. As depicted in step 18, let us connect the respective output ports of the tables with the associated input ports of the Join Operators. Next, we click on the first Join Operator called `Join 1` and take a look at the details by selecting the `Details` tab <br>
 <br>![](./images/ex2_24.png)<br>
 28. Let us click the pencil button to proceed to the join details<br>
 <br>![](./images/ex2_25.png)<br>
-29. We do realize that we apply an `Inner Join` condition applied on the column `STATIONS_ID`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen<br>
+29. We do realize that we are going to apply an `Inner Join` condition on the column `STATIONS_ID`. By selecting the `Details` tab at the upper right of the screen we go back to the original Data Flow screen<br>
 <br>![](./images/ex2_26.png)<br>
 30. 
 
