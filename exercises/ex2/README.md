@@ -98,7 +98,7 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_32.png)<br>
 34. We now connect the output port of the `Join 3` Operator with the associated input port of the `Script 1` Operator. Subsequently, we select the `Script 1` Operator located in the Data Flow canvas and take a look at its details. We click on the pencil icon to switch to the inbuilt Script editor<br>
 <br>![](./images/ex2_34.png)<br>
-35. As stated in Step 33 we want to remove duplicate records. For this purpose we just include one line of simple Python coding leveraging the open source data analysis and manipulation tool `pandas`. <br> Precisely, we do incorporate coding `data=data.drop_duplicates()` in the function body highlighted in the Script Editor. Now, let us get back to the Data Flow canvas by selecting the Details tab at the upper right of the screen  <br>
+35. As stated in Step 33 we want to remove duplicate records that might occur. For this purpose we just include one line of simple Python coding leveraging the open source data analysis and manipulation tool `pandas`. <br> Precisely, we do incorporate coding `data=data.drop_duplicates()` in the function body highlighted in the Script Editor. Now, let us get back to the Data Flow canvas by selecting the Details tab at the upper right of the screen  <br>
 <br>![](./images/ex2_35.png). <br>
 36. 
 
