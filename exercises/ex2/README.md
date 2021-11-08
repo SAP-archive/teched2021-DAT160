@@ -54,7 +54,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_17.png)<br>
 21. Once you have done that there are three options you can choose in principle. We select the option `Remove Column`<br>
 <br>![](./images/ex2_17_1.png)<br>
-22. Now we do proceed exactly as described in the aforementioned steps 20 and 21 and remove the following columns for the `Projection 1` Operator: 
+22. Now we do proceed exactly as described in the aforementioned steps 20 and 21 and remove the following columns from the `Projection 1` Operator: 
 - `LONGITUDE_DEVICE` <br>
 - `HEIGHT` <br>
 - `LATITUDE_STATION` <br>
