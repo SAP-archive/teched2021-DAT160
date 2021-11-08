@@ -44,7 +44,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_13.png)<br>
 16. Now, drag & drop the tables `DEVICES` and `SERVICES` to the Data Flow canvas<br>
 <br>![](./images/ex2_13_2.png)<br>
-17. As the next step, we will apply a projection on each of the four tables highlighted in the Data Flow canvas. To do so, take a look at the `Operators` bar above the Data Flow canvas. We initially select the `Projection` operator and drag & drop it to the Data Flow canvas and right behind the first table from above <br>
+17. As the next step, we will apply a projection on each of the four tables highlighted in the Data Flow canvas to get rid of some columns that we do not need for further processing. To do so, take a look at the `Operators` bar above the Data Flow canvas. We initially select the `Projection` operator and drag & drop it to the Data Flow canvas and right behind the first table from above, respectively <br>
 <br>![](./images/ex2_14.png)<br>
 18. 
 
