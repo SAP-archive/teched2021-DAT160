@@ -78,7 +78,7 @@ You will end up with having five columns remaining as output in the Projection 2
 <br>![](./images/ex2_18.png)<br>
 24. Moreover, we also apply a projection on the third table `DEVICES`. For this purpose we do essentially repeat the steps 17 to 22 from above. Precisely we remove the two columns `LATITUDE` and `LONGITUDE` as output from the `Projection 3` Operator. As a result, the following output then remains:<br>
 <br>![](./images/ex2_19.png)<br>
-25. Last but not least, we finally apply a projection on the fourth table `SERVICES`. After having repeated all the steps 17 to 22 from above and removing the single column `SERVICE_DATE` the output of the highlighted `Projection 4` Operator will look as follows:<br>
+25. Last but not least, we finally apply a projection on the fourth table `SERVICES`. After having repeated all the steps 17 to 22 from above and removing the column `SERVICE_DATE` the output of the highlighted `Projection 4` Operator will look as follows:<br>
 <br>![](./images/ex2_20.png)<br>
 26. 
 ## Summary
