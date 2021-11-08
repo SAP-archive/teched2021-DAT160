@@ -53,9 +53,16 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 20. Our goal is to remove columns that are not needed. We start off with the column `LATITUDE_DEVICE` that we would like to remove completely. To proceed with this, just click on the three dots on the right hand side when selecting the mentioned column <br>
 <br>![](./images/ex2_17.png)<br>
 21. Once you have done that there are three options you can choose in principle. We select the option `Remove Column`<br>
-<br>![](./images/ex2_18.png)<br>
-22. 
-
+<br>![](./images/ex2_17_1.png)<br>
+22. Now we do proceed exactly as described in the aforementioned steps 20 and 21 and remove the following columns for the `Projection 1` Operator: 
+- `LONGITUDE_DEVICE` <br>
+- `HEIGHT` <br>
+- `LATITUDE_STATION` <br>
+- `LONGITUDE_STATION` <br>
+- `DISTANCE` <br>
+You will end up with having five columns remaining as output in the Projection 1 Operator<br>
+<br>![](./images/ex2_17_2.png)<br>
+23. 
 ## Summary
 
 You've now ...
