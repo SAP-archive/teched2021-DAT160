@@ -38,8 +38,9 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 <br>![](./images/ex2_10.png)<br>
 13. Label the imported table as `Source` <br>
 <br>![](./images/ex2_11.png)<br>
-
-
+14. At this point, we want to enrich the imported content with other tables containing information about the Daily Weather, about the Devices used as well as about the Services that have been taken place. For this sake we make use of the pre-populated HANA Database connection in your assigned SAP Data Warehouse Cloud space (cf. Steps 6 and 7 from above). To do so, we click on the `Connections` tab in same area on the left hand side of the entire Data Flow screen<br>
+<br>![](./images/ex2_12.png)<br>
+15. 
 
 ## Summary
 
