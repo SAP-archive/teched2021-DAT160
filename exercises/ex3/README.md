@@ -36,7 +36,26 @@ In this exercise, we will make use of the consolidated, local (relational) SAP D
 <br>![](./images/ex3_14.png)<br>
 14. You will be directed to the `Story Builder` application of SAP Analytics Cloud. We choose the `Responsive` layout
 <br>![](./images/ex3_15.png)<br>
-15. 
+15. Therein, we right click on the empty space of the left page appearing at the screen and choose to remove it. In addition, we select the `Data` View as highlighted in the screenshot below
+<br>![](./images/ex3_16.png)<br>
+16. Let us click on the associated icon which is marked in the screenshot below
+<br>![](./images/ex3_17.png)<br>
+17. We choose the `Connect to Live Data` area and select the connection `SAP Data Warehouse Cloud` connectivity
+<br>![](./images/ex3_18.png)<br>
+18. Proceed with selecting your assigned space (only one space should appear in the associated drop down list)
+<br>![](./images/ex3_19.png)<br>
+19. Next, you can select your dataset and your analytical view just built in SAP Data Warehouse Cloud, respectively
+<br>![](./images/ex3_20.png)<br>
+20. At this stage we will leverage the power of SAP Analytics Cloud to build powerful visualizations. For this sake, we click on the tab named `More` and choose the option `Chart`
+<br>![](./images/ex3_21.png)<br>
+21. Now, we select the measures we have just defined in the graphical view in SAP Data Warehouse Cloud (cf. steps 7 to 9 from above). To do so, we click on the `Designer` tab and select the `+` icon in the `Measures` section highlighted in the associated screenshot. We add the two measures `PRECIPITATION_HEIGHT` as well as `SUN_DURATION`
+<br>![](./images/ex3_22.png)<br>
+22. As the next step, we add the desired dimension `REPAIR_CODE` to the bar graph and change the `Chart Orientation` setup to `Vertical`. Let us finally take a look at the resulting bar graph by clicking on the `Designer` tab once again
+<br>![](./images/ex3_24.png)<br>
+23. To have a better overview of the created visualization we can extend the bar graph accordingly
+<br>![](./images/ex3_25.png)<br>
+24. Congratulations! You have created a visualization which is showing the relationship between both Sun Duration and Repair Code as well as between Precipitation Height and Repair Code. We do realize that Repair Code 304 seems to correlate with the Sun Duration in some way. This could act as a starting point for further Data Science investigations (which is not part of this exercise though)
+<br>![](./images/ex3_26.png)<br>
 ## Summary
 
 You've now ...
