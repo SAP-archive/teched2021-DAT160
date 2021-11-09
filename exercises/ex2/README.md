@@ -127,4 +127,4 @@ To proceed with that we drag & drop the `Table` Operator from the `Operators` ta
 Congratulations! You have built and executed your first Data Flow in SAP Data Warehouse Cloud! We hope you enjoyed it! <br>
 To briefly recap what we did in Exercise 2, we have created a quite comprehensive Data Flow in SAP Data Warehouse Cloud that has integrated different data streams and produced a single, consolidated output table. This will be taken as a basis for building an analytical view in SAP Data Warehouse Cloud which can be utilized for consumption in SAP Analytics Cloud. In SAP Analytics Cloud, we can make use of the strong Business Intelligence capabilities to start off with some Data Exploration to gain some insights in the data we have gathered and harmonized accordingly.
 
-Continue to - [Exercise 3](../ex3/README.md)
+Please continue to do [Exercise 3](../ex3/README.md)
