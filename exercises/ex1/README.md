@@ -92,6 +92,10 @@ The other pipeline is more complex that reads the weather data from the weather 
 
 ![Device Weather Pipeline](./images/device_weather_pipeline.png).
 
+It is a pipeline that creates steadily a data stream by sending URLs to the HTTP and the resulting data is finally send to the HANA DB. The data messages carries kind of message metadata and the actual data. In the metadata attributes there is variable that tells if this message is the last message that finally triggers the last operator to complete the pipeline. Without stopping actively a pipeline the process runs continously. 
+
+
+
 
 ## Exercise 1.2 Sub Exercise 2 Description
 
