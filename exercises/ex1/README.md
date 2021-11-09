@@ -1,18 +1,20 @@
-# Exercise 1 - Exercise 1 Description
+# Exercise 1 - SAP Data Intelligence 
 
-In this exercise, we will create...
+In this exercise you learn how to download data from external data sources of unusual format that needs some pre-pocessing before it is stored to a SAP Data Intelligence managed data source (Exercise 1.1). In the second Exercise you create a pipeline with a more complex processing. 
 
-## Exercise 1.1 Sub Exercise 1 Description
+## Exercise 1.1 Review Data Collection Pipelines
 
-After completing these steps you will have created...
+This exercise explains how a complex data collection could be setup with SAP Data Intelligence. Something that you cannot do with the limited tools of DataFlow in SAP Data Warehouse Cloud.  
 
-1. Click here.
-<br>![](/exercises/ex1/images/01_01_0010.png)
+### Setup a HTTP Connection
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello World! | ). 
-```
+1. Launch the "Connection Management"-App on Launchpad
+[Start Connection Management](./images/
+
+### Pipeline Download DWD Weather Stations
+
+### Pipeline Download Weather Data 
+
 
 
 
