@@ -14,7 +14,7 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
    <br> Password: `Welcome01`<br>
    <br>to get to the SAP Data Warehouse Cloud Home Screen. 
 
-## Exercise 2.2 - Build a consolidated SAP Data Warehouse Cloud model 
+## Exercise 2.2 - Integrate different Data Streams via building a comprehensive Data Flow in SAP Data Warehouse Cloud 
    
 3. Now, you should see the Home Screen of SAP Data Warehouse Cloud. Just click on the highlighted icon to get to your associated SAP Data Warehouse Cloud Space<br> 
 <br>![](./images/ex2_1.png)<br>
@@ -119,9 +119,12 @@ To proceed with that we drag & drop the `Table` Operator from the `Operators` ta
 <br>![](./images/ex2_44.png)<br>
 44. After a couple of minutes, the status of the Data Flow execution should switch to `Completed`. Now, we go back to the `Data Builder` application of SAP Data Warehouse Cloud<br>
 <br>![](./images/ex2_45.png)<br>
-45. 
+45. In the `Data Builder` application of SAP Data Warehouse Cloud you will realize that new artefacts have been generated. To become more precise, you have created two local (relational) tables as a result of the deployments you have triggered in the steps 12 and 38 from above. Apart from this and as a result of the steps 40 and 41, respectively, you have saved and executed a Data Flow object which was the main goal of this exercise <br>
+<br>![](./images/ex2_46.png)<br>
+
 ## Summary
 
-You've now ...
+Congratulations! You have built and executed your first Data Flow in SAP Data Warehouse Cloud! We hope you enjoyed it! <br>
+To briefly recap what we did in Exercise 2, we have created a quite comprehensive Data Flow in SAP Data Warehouse Cloud that has integrated different data streams and produced a single, consolidated output table. This will be taken as a basis for building an analytical view in SAP Data Warehouse Cloud which can be utilized for consumption in SAP Analytics Cloud. In SAP Analytics Cloud, we can make use of the strong Business Intelligence capabilities to start off with some Data Exploration to gain some insights in the data we have gathered and harmonized accordingly.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3](../ex3/README.md)
