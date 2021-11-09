@@ -103,10 +103,23 @@ You will end up with having five columns remaining as output in the Projection 2
 36. At this stage we have almost accomplished the creation of our entire Data Flow. The only thing which is yet missing is to create a target table in SAP Data Warehouse Cloud which acts as a consolidated result set that is generated when executing the Data Flow at hand<br>
 To proceed with that we drag & drop the `Table` Operator from the `Operators` tab to the Data Flow canvas. Make sure that the table is labeled as `Target`<br>
 <br>![](./images/ex2_36.png)<br>
-37. Connect the output port of the `Script 1` Operator with the input port `Table` Operator. Now, we select the `Table` Operator and take a look at its details. We rename the `Table` Operator as highlighted in the screenshot below. Please note that XY refers to your participant number as always. Last but not least, we finally select the option `Create and Deploy Table`. This is very important as it creates the runtime artefact being used once we execute the present Data Flow to persist the result set in SAP Data Warehouse Cloud<br>
-<br>![](./images/ex2_37.png)<br>
-38. 
-
+37. Connect the output port of the `Script 1` Operator with the input port `Table` Operator. Now, we select the `Table` Operator and take a look at its details and properties, respectively. We rename the `Table` Operator as highlighted in the screenshot below. Please note that XY refers to your participant number as always. Last but not least, we finally select the option `Create and Deploy Table`. This is very important as it creates the runtime artefact being used once we execute the present Data Flow to persist the result set in SAP Data Warehouse Cloud<br>
+<br>![](./images/ex2_38.png)<br>
+38. As a consequence, an information note will appear on your screen. We confirm that we want to create and deploy the target table<br>
+<br>![](./images/ex2_39.png)<br>
+39. Scrolling down further in the `Properties` area of the target table that has now been created and deployed we finally select the `Mode` tab and choose the option `Truncate` in the drop down menu at hand<br>
+<br>![](./images/ex2_40.png)<br>
+40. Congratulations! The Data Flow has been built! At this point we merely want to execute it. For this sake we select the `Save` button at the upper left of the screen and rename the Data Flow as highlighted in the screenshot below. Please make sure that you replace XY by your assigned participant number. Click `Save` to continue <br>
+<br>![](./images/ex2_41.png)<br>
+41. In order to finally execute the Data Flow we make use of the `Execute` button which can be found at the upper left of the screen as well<br>
+<br>![](./images/ex2_42.png)<br>
+42. Once you have chosen to execute the Data Flow, the status is highlighted as `Running`. We want to take a look at further details with respect to the Data Flow execution itself. For this purpose we move forward to the `Data Integration Monitor` component of SAP Data Warehouse Cloud<br>
+<br>![](./images/ex2_43.png)<br>
+43. You will be directed to another screen which is detailing out the `Run Details` of the running Data Flow. The messages do describe the current actions that are taken by the Data Flow execution. You can refresh the status accordingly<br>
+<br>![](./images/ex2_44.png)<br>
+44. After a couple of minutes, the status of the Data Flow execution should switch to `Completed`. Now, we go back to the `Data Builder` application of SAP Data Warehouse Cloud<br>
+<br>![](./images/ex2_45.png)<br>
+45. 
 ## Summary
 
 You've now ...
