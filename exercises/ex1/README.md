@@ -95,27 +95,16 @@ The other pipeline is more complex that reads the weather data from the weather 
 It is a pipeline that creates steadily a data stream by sending URLs to the HTTP and the resulting data is finally send to the HANA DB. The data messages carries kind of message metadata and the actual data. In the metadata attributes there is variable that tells if this message is the last message that finally triggers the last operator to complete the pipeline. Without stopping actively a pipeline the process runs continously. 
 
 
+## Exercise 1.2 Create New Pipeline for Advanced Processing
 
+The previous 2 pipelines are generic in the sense that past weather data can be used for all kind of impact analysis. The next pipeline is rather specific. The SenDI company has devices scattered across Germany. For an analysis if the weather is somehow damaging the devices either the temperatures or the precipitation and which product type is more susceptible for weather conditions you need to get the weather data from the nearest weather station. That means that we have to choose for each device location from the weather station list the nearest one. Luckily the data scientist of SentDi could solve this challenge with a publicly available "next neighbour"-algorithm within an hour and provides a ready to use operator. All you need to do is collecting the data 
 
-## Exercise 1.2 Sub Exercise 2 Description
+1. Weather Stations downloaded already to SAP Data Intelligence internal Data Lake: DI Data Lake
+2. HANA Table of the device asset data: DEVICES
 
-After completing these steps you will have...
+and sending the data to the "Next Neighbour"-Custom Operator. The result will be send to an additional HANA Table that stores the pair of device 'ID' and the nearest station 'ID'.
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex1/images/01_02_0010.png)
-
+Although we provide the resulting pipeline for checking, we strongly encourage you to run through the following steps of creating your own version. This hands-on might give you a better understanding how this 5th generation programming actually works. 
 
 ## Summary
 
