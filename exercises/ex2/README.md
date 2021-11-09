@@ -103,8 +103,9 @@ You will end up with having five columns remaining as output in the Projection 2
 36. At this stage we have almost accomplished the creation of our entire Data Flow. The only thing which is yet missing is to create a target table in SAP Data Warehouse Cloud which acts as a consolidated result set that is generated when executing the Data Flow at hand<br>
 To proceed with that we drag & drop the `Table` Operator from the `Operators` tab to the Data Flow canvas. Make sure that the table is labeled as `Target`<br>
 <br>![](./images/ex2_36.png)<br>
-37. 
-
+37. Connect the output port of the `Script 1` Operator with the input port `Table` Operator. Now, we select the `Table` Operator and take a look at its details. We rename the `Table` Operator as highlighted in the screenshot below. Please note that XY refers to your participant number as always. Last but not least, we finally select the option `Create and Deploy Table`. This is very important as it creates the runtime artefact being used once we execute the present Data Flow to persist the result set in SAP Data Warehouse Cloud<br>
+<br>![](./images/ex2_37.png)<br>
+38. 
 
 ## Summary
 
