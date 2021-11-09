@@ -58,6 +58,4 @@ In this exercise, we will make use of the consolidated, local (relational) SAP D
 <br>![](./images/ex3_26.png)<br>
 ## Summary
 
-You've now ...
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Congratulations! You have finished Exercise 3 which is the last one in this Hands- On Workshop! We hope you enjoyed to accomplish the use case presented and to implement it end-to-end by leveraging powerful functionalities provided by the SAP HANA Data & Analytics portfolio overall!
