@@ -48,12 +48,49 @@ Once it has started (it can take a while because the apps is started the first t
 
 With a double click on the graph "Get DWD Stations" you can open the pipeline. 
 
-![Open getdwd pipeline](./images/getdwdstations_graph.png)
+![Open getdwd pipeline](./images/getdwdstations_graph.png).
+
+
+This is basically a 3-step pipeline:
+
+1. Get data
+2. Transform data (Custom Operator)
+3. Write data
+
+The first operator "HTTP Client" is a standard opertator that uses the connection we had seen in the "Connection Management". The configuration is in the config panel you can open with the "Open Configuration" button at the operator. 
+
+![Open config panel](./images/config_http.png)
+
+The transformation is done with a script in a custom operator. You can peek into the code by clicking the script button at the custom operator "Convert DWD Stations".
+
+![Open script panel](./images/open_script.png).
+
+Please be aware when you change the script in the pipeline context you branch the code from the basic custom operator script and it is stored with the pipeline. Further on if the script of the custom operator is changed it will not be overtaken by the "pipeline"-custom operator script.  
+
+The transformed data is finally stored in an object store by the "Write File"-operator. The configuration is quite self-explaining. You have to select the connection from the already define connections in the Connection Management. For more information you can read the manual of the operator.  
+
+![Open operator help](./images/operator_help.png).
+
+The final operator "Graph Terminator" is completing the pipeline once it gets a signal at its inport. While the ports of most of the operators have a defined data type and you can only connect operators for which the inport and the corresponding outport have fitting data types, this operator digests all data types: 
+
+![Any Datatype](./images/any_datatype.png).
+
 
 
 ### Pipeline Download Weather Data 
 
+The other pipeline is more complex that reads the weather data from the weather stations of interest (A nearby installed device). The process is 
 
+1. Get all weather stations from a HANA table "DEVICE_WEATHERSTATION" by an SQL-statement.
+2. Creates an URL with a Custom Operator
+3. Sends the created URL to the inport "inRequest" of the "HTTP Client" operator that executes the GET request. The output "zip"-file is send to a Custom Operator.
+4. Unzips the downloaded data, extracts one file and transform this into a table-format.
+5. Stores the data to a HANA Table: "DAILY_WEATHERDATA"
+6. Decides when the data stream has come to an end and then sends a signal.
+7. Completes the process.    
+
+
+![Device Weather Pipeline](./images/device_weather_pipeline.png).
 
 
 ## Exercise 1.2 Sub Exercise 2 Description
