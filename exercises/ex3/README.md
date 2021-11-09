@@ -1,6 +1,6 @@
-# Exercise 2 - Exercise 2 Description
+# Exercise 3 - Build an analytical view in SAP Data Warehouse Cloud and use SAP Analytics Cloud for consumption purposes
 
-In this exercise, we will create...
+In this exercise, we will
 
 ## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
 
