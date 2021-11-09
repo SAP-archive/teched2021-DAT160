@@ -1,7 +1,7 @@
 
 # Exercise 2 - Exercise 2 Description
 
-In this exercise, we will utilize SAP Data Warehouse Cloud to create an analytical data model which can be consumed by SAP Analytics Cloud 
+In this exercise, we will utilize SAP Data Warehouse Cloud to integrate different data streams. To do this we use the Data Flow Builder provided.
 
 ## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
 
