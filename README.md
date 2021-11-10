@@ -13,8 +13,7 @@ This session introduces attendees to build and end-to-end scenario from
 * process the data with a complex algorithm with SAP Data Intelligence
 * merge the data from different data source in SAP Data Warehouse Cloud with Data Flow (=embedded SAP Data Intelligence)
 * add some additional modeling with SAP Data Warehouse Cloud and prepare it for eventually
-* use SAP Analytics Cloud to present the data
-
+* using SAP Analytics Cloud to visualize a final consolidated result set containing all relevant external data assets described in the first point from above
 ![Overview Data](./images/dataflow.png)
 
 ### User Case
@@ -32,15 +31,14 @@ Fortunately in a former project **SenDi** has already developed 2 pipelines with
 
 What needs to be done, is to map each device to the nearest weather station. For this read the data sources of all devices and the list of weather stations and use a "next-neighbour"-algorithm encapsulated in a ready-to-use custom operator **next neighbour**. 
 
-**CHRISTIAN AND BABACAR section:**
-
 Subsequently we like to collect further data as the 
 
 * **services** table containing the repair services SenDi had to do for the devices and 
 * past **weather data** measured near to the devices. 
 
-Finally we like to merge all data into one data model with the Data Flow engine of SAP Data Warehouse Cloud. 
+Finally we like to merge all data into one data model leveraging the **Data Flow Builder** application of SAP Data Warehouse Cloud. This component is specifically designed for Business Users that want to create re-usable data models that are consumed by analytical applications on top. Our tool of choice for building agile analytical applications is SAP Analytics Cloud which is integrated into SAP Data Warehouse Cloud up to a specific extent at least.
 
+For the present exercise, we concentrate ourselves on deriving some insights on how the specific weather conditions **Sun Duration (in hours)** and **Percipitation Height (in cm)** are influencing the frequency of the service to be applied. This frequency is expressed via the at
 
 ### SAP Application Used
 
