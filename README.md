@@ -71,11 +71,8 @@ No knowledge on both SAP Data Intelligence and SAP Data Warehouse Cloud is neede
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - SAP Data Intelligence](exercises/ex1/)
-    - [Exercise 1.1 - Review Data Collection Pipelines](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Create New Pipeline for Advanced Processing](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 3 - Second Exercise Description](exercises/ex3/)
 
 
 
