@@ -1,7 +1,7 @@
 
 # Exercise 2 - Utilize SAP Data Warehouse Cloud to integrate different Data Streams
 
-In this exercise, we will utilize SAP Data Warehouse Cloud to integrate different data streams. To do this we use the Data Flow Builder provided.
+In this exercise, we will utilize SAP Data Warehouse Cloud to integrate different data streams. To do this we use the Data Flow Builder provided. As described in the overall use case description our goal is to firstly consolidate the different data sources and to secondly identify selected attributes to be considered for analytical consumption afterwards.
 
 ## Exercise 2.1 - Get started with SAP Data Warehouse Cloud
 
@@ -74,7 +74,7 @@ You will end up with having five columns remaining as output in the Projection 1
 - `MAX_TEMPERATURE` <br>
 - `MIN_TEMPERATURE` <br>
 - `MIN_AIR_TEMPERATURE` <br>
-You will end up with having five columns remaining as output in the Projection 2 Operator<br>
+You will end up with having five columns remaining as output in the Projection 2 Operator. Please note that we have artificially restricted ourselves to considering the attributes SUN_DURATION as well as PERCIPITATION_HEIGHT in what follows (We could of course also make use of other attributes in subsequent analytical considerations) <br>
 <br>![](./images/ex2_18.png)<br>
 24. Moreover, we also apply a projection on the third table `DEVICES`. For this purpose we do essentially repeat the steps 17 to 22 from above. Precisely we remove the two columns `LATITUDE` and `LONGITUDE` as output from the `Projection 3` Operator. As a result, the following output then remains:<br>
 <br>![](./images/ex2_19.png)<br>
