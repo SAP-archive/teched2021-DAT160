@@ -207,6 +207,24 @@ The operator takes the metadata and the data from the incoming data and saves it
 
 The last operator is just completing the pipeline unconditionally. Once it gets data in the inport it stops regularly the process. 
 
+#### Saving the Pipeline
+
+The final pipeline will look like this: 
+
+![Final pipeline](./images/final_pipeline.png)
+
+Before you can run the pipeline you have to save it. Because you are working in your own user workspace you are free to name. If the pipeline is intended to be used productively you rather name it according your guidelines. I strongly recommend to add each artifact (Operator or Pipeline) to a package be using a prefix separated with a dot, e.g. teched21.next_neighbour, or mycompany.weather.next_neighour. 
+
+![Save pipeline](./images/save_pipeline.png)
+
+#### Run Pipeline
+
+For running the pipeline you click on the "Run"-button at the top of the graph canvas. 
+![Run pipeline](./images/run_pipeline.png)
+
+**PLEASE DO NOT start the pipeline**. The SAP Data Intelligence cluster of this workshop might not have the capacity to run all pipelines at the same time. 
+
+
 ## Summary
 
 You've learnt how to build pipelines that can get external data of even "exotic" format and saves them to managed data sources. In addition you have seen that you can apply complex and public algorithms to enrich or transform data. 
