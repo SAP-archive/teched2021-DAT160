@@ -12,7 +12,7 @@ This session introduces attendees to build and end-to-end scenario from
 * collecting external data of unusual format with SAP Data Intelligence,
 * process the data with a complex algorithm with SAP Data Intelligence
 * merge the data from different data source in SAP Data Warehouse Cloud with Data Flow (=embedded SAP Data Intelligence)
-* add some additional modeling with SAP Data Warehouse Cloud and prepare it for eventually
+* add some additional modeling with SAP Data Warehouse Cloud leveraging the Graphical View Builder therein and prepare it for eventually
 * using SAP Analytics Cloud to visualize a final consolidated result set containing all relevant external data assets described in the first point from above
 ![Overview Data](./images/dataflow.png)
 
