@@ -1,5 +1,5 @@
 
-# Exercise 2 - Exercise 2 Description
+# Exercise 2 - Utilize SAP Data Warehouse Cloud
 
 In this exercise, we will utilize SAP Data Warehouse Cloud to integrate different data streams. To do this we use the Data Flow Builder provided.
 
