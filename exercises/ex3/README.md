@@ -1,8 +1,8 @@
-# Exercise 3 - Build an analytical view in SAP Data Warehouse Cloud and use SAP Analytics Cloud for consumption purposes
+# Exercise 3 - Build an analytical View in SAP Data Warehouse Cloud and use SAP Analytics Cloud for Consumption Purposes
 
 In this exercise, we will make use of the consolidated, local (relational) SAP Data Warehouse Cloud table (cf. [Exercise 2](../ex2/README.md)) to finally build an analytical view on top. This view itself can then be consumed using SAP Analytics Cloud going forward.
 
-## Exercise 3.1 - Build an analytical view in SAP Data Warehouse Cloud 
+## Exercise 3.1 - Build an analytical View in SAP Data Warehouse Cloud 
 
 1. Click on the associated icon to create a new `graphical view` 
 <br>![](./images/ex3_1.png)<br>
@@ -28,7 +28,7 @@ In this exercise, we will make use of the consolidated, local (relational) SAP D
 <br>![](./images/ex3_12.png)<br>
 
 
-## Exercise 3.2 - Build a dashboard in SAP Analytics Cloud to gain some insights in the consolidated data foundation (Optional)
+## Exercise 3.2 - Build a Dashboard in SAP Analytics Cloud to gain some Insights in the consolidated Data Foundation (Optional)
 
 12. Click on the associated button at the upper right of the screen and change the selection to `Analytics`
 <br>![](./images/ex3_13.png)<br>
