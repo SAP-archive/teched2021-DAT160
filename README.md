@@ -38,7 +38,7 @@ Subsequently we like to collect further data as the
 
 Finally we like to merge all data into one data model leveraging the **Data Flow Builder** application of SAP Data Warehouse Cloud. This component is specifically designed for Business Users that want to create re-usable data models that are consumed by analytical applications on top. Our tool of choice for building agile analytical applications is SAP Analytics Cloud which is integrated into SAP Data Warehouse Cloud up to a specific extent at least.
 
-For the present exercise, we concentrate ourselves on deriving some insights on how the specific weather conditions **Sun Duration (in hours)** and **Percipitation Height (in cm)** are influencing the frequency of the service to be applied. This frequency is expressed via the at
+For the present exercise, we concentrate ourselves on deriving some insights on how the specific weather conditions **Sun Duration (in hours)** and **Percipitation Height (in cm)** are influencing the number of appearances for certain repair activities (expressed via the attribute **Repair Code**). To derive that we do create an analytical model in SAP Data Warehouse Cloud which is consumed by SAP Analytics Cloud to create an associated visualization / dashboard therein accordingly. This last part of utilizing SAP Analytics Cloud is considered as optional in the context of this session.
 
 ### SAP Application Used
 
