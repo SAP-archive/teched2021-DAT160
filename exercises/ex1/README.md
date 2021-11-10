@@ -104,11 +104,112 @@ The previous 2 pipelines are generic in the sense that past weather data can be 
 
 and sending the data to the "Next Neighbour"-Custom Operator. The result will be send to an additional HANA Table that stores the pair of device 'ID' and the nearest station 'ID'.
 
-Although we provide the resulting pipeline for checking, we strongly encourage you to run through the following steps of creating your own version. This hands-on might give you a better understanding how this 5th generation programming actually works. 
+We provide the resulting pipeline for checking, nonetheless we strongly encourage you to run through the following steps of creating your own version. This hands-on might give you a better understanding how this 5th-generation programming actually works. 
+
+In summary the steps needs to be done are
+
+1. Create a new pipeline
+2. Add the operators 
+3. Connect the operators
+4. Configure the operators
+5. Run and validate the result of the pipeline
+
+#### Create a new Pipeline
+For adding a new pipeline ensure first that your focus is on the tab "Graphs" on the left panel and then click on the "plus"-button and a new plane white canvas opens. The focus as now changed already to "Operators"
+
+![Add new pipeline](./images/add_new_pipeline.png)
+
+#### Add the Operators
+Now you can add the processing modules or operators. There is a "search"-textfield on top of the left panel where you can type in the words for easily finding the operators. You can also first filter the operators by categories and then scan the operators. 
+
+##### Read File
+This operator reads files as a byte stream from an object store. There are other operators that can read structured data like csv-files and provide them in a table format. In this case, however, we need anyway a python-script and can include the byte-stream interpretation in the operator. 
+
+For configuring open the "Configure"-panel by clicking on the top button on the left side of the "Read File"-operator. 
+
+![Configure Read File](./images/config_readfile.png)
+
+In the configuration panel you 
+
+1. Change the "Read" value to "Once".
+2. Edit the Connection (static) and 
+	1. 	choose the "Connection type": Connection Management, then
+	2. select in the new field "Connection ID": DI\_DATA\_LAKE and finally
+	3. save the configuration
+3. In "Path Mode" choose "Static (from configuration)"
+4. In the "Path" select the path /shared and the file: dwdstations.csv. This file has been created in the first pipeline.
+
+
+##### Read HANA Table
+
+Add the "Read HANA Table" and open the "Configuration" panel of the operator as done with the "Read File"-operator. 
+
+In the configuration panel you 
+
+1. Edit the Connection (static) and 
+	1. 	choose the "Connection type": Connection Management, then
+	2. select in the new field "Connection ID": DWC\_TechEd\_1 and finally
+	3. save the configuration
+2. In "Configuration Mode" select "Static (from configuration)". The dynamic option enables you to set the configuration via inport data. 
+3. For the "Table name" enter: "DEVICES"
+4. Edit the "Columns" and add three Collumns
+	1. SERIAL_NO
+	2. LATITUDE
+	3. LONGITUDE
+![Add columns](./images/add_columns.png)
+
+Remark: With the operators of the category "Structured Data Operator" it is much more convenient because it reads already the metadata from the data source. 
+
+##### Next Neighbour
+
+Add the custom operator "Next Neighbour" to the canvas and connect the outports of the "Read File" and "Read HANA Table" to the inports of the new operator. 
+
+![Add next neighbour](./images/add_nextneighbour.png)
+
+Ensure that you connect the right outports to the right inports. As you see the inport of the "Next Neighbour" operator has 2 different type of inports and you cannot connect ports of different data types. 
+
+Configuration 
+1. In "Dimension of Data" and "Dimensions of Network Nodes" both add 
+	1. LONGITUDE
+	2. LATITUDE in capital letters
+2. "Suffix of Data Columns": \_DATA
+3. "Suffix of Net Columns": \_NET 	
+
+You can have a look at the codeing 
+![Coding neighbour](./images/coding_nextneighbour.png)
+
+There you can see that there are special packages used for the next-neighbour algorithm: 
+
+```
+from scipy.spatial import KDTree
+from geopy.distance import geodesic
+```
+
+These packages are not part of the standard Docker images and had to be created by extending an existing Docker image. This is not part of this tutorial and are normally provided by operations engineers. 
+
+##### Write HANA Table
+
+Finally the result needs to be written to the database. For this we are going to use the "Write HANA Table"-operator.
+
+Configuration: 
+
+1. Edit the Connection (static) and 
+	1. 	choose the "Connection type": Connection Management, then
+	2. select in the new field "Connection ID": DWC\_TechEd\_1 and finally
+	3. save the configuration
+2. "Configuration Mode" select "Static (from configuration)"
+3. "Table name": "TECHED2021DAT160VII#TECHED2021DAT160VII"."TECHED2021_DEVICES_WEATHERSTATION_TAXY"
+4. "Statement type": Upsert
+
+The operator takes the metadata and the data from the incoming data and saves it to the corresponding table columns. 
+
+##### Graph Terminator
+
+The last operator is just completing the pipeline unconditionally. Once it gets data in the inport it stops regularly the process. 
 
 ## Summary
 
-You've now ...
+You've learnt how to build pipelines that can get external data of even "exotic" format and saves them to managed data sources. In addition you have seen that you can apply complex and public algorithms to enrich or transform data. 
 
 Continue to - [Exercise 2 - Exercise 2 Description](../ex2/README.md)
 
