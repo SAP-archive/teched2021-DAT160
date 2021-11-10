@@ -71,8 +71,8 @@ No knowledge on both SAP Data Intelligence and SAP Data Warehouse Cloud is neede
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - SAP Data Intelligence](exercises/ex1/)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-- [Exercise 3 - Second Exercise Description](exercises/ex3/)
+- [Exercise 2 - Utilize SAP Data Warehouse Cloud to integrate different Data Streams](exercises/ex2/)
+- [Exercise 3 - Build an analytical View in SAP Data Warehouse Cloud and use SAP Analytics Cloud for Consumption Purposes](exercises/ex3/)
 
 
 
