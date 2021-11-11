@@ -148,7 +148,7 @@ In the configuration panel you
 
 1. Edit the Connection (static) and 
 	1. 	choose the "Connection type": Connection Management, then
-	2. select in the new field "Connection ID": DWC\_TechEd\_1 and finally
+	2. select in the new field "Connection ID": HANA\_DEVICES and finally
 	3. save the configuration
 2. In "Configuration Mode" select "Static (from configuration)". The dynamic option enables you to set the configuration via inport data. 
 3. For the "Table name" enter: "DEVICES"
@@ -191,14 +191,47 @@ These packages are not part of the standard Docker images and had to be created 
 
 Finally the result needs to be written to the database. For this we are going to use the "Write HANA Table"-operator.
 
+For the configuration we need to find the right 
+
+* **Connection Type** - tenner digit
+* **DB Schema** - roman tenner digit
+* **table**  - user
+
+for your specific user taXY.
+
+The following table gives you the mapping:
+
+| User Group | Connection | DB Schema | Table | 
+| -----------| -----------| -----------| -----------|
+| TA01 – TA10|DWC\_TechEd\_1|TECHED2021DAT160#TECHED2021DAT160|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA11 – TA20|DWC\_TechEd\_2|TECHED2021DAT160II#TECHED2021DAT160II|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA21 – TA30|DWC\_TechEd\_3|TECHED2021DAT160III#TECHED2021DAT160III|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA31 – TA40|DWC\_TechEd\_4|TECHED2021DAT160IV#TECHED2021DAT160IV|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA41 – TA50|DWC\_TechEd\_5|TECHED2021DAT160V#TECHED2021DAT160V|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA51 – TA60|DWC\_TechEd\_6|TECHED2021DAT160VI#TECHED2021DAT160VI|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+| TA61 – TA70|DWC\_TechEd\_7|TECHED2021DAT160VII#TECHED2021DAT160VII|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY|
+
+For cut and past and only changing you user:
+
+```
+“TECHED2021DAT160#TECHED2021DAT160”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+“TECHED2021DAT160II#TECHED2021DAT160II”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+TECHED2021DAT160III#TECHED2021DAT160III”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+“TECHED2021DAT160IV#TECHED2021DAT160IV”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+“TECHED2021DAT160V#TECHED2021DAT160V”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+“TECHED2021DAT160VI#TECHED2021DAT160VI”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+“TECHED2021DAT160VII#TECHED2021DAT160VII”.”TECHED2021_DEVICES_WEATHERSTATION_TAXY”
+```
+
+
 Configuration: 
 
 1. Edit the Connection (static) and 
 	1. 	choose the "Connection type": Connection Management, then
-	2. select in the new field "Connection ID": DWC\_TechEd\_1 and finally
+	2. select in the new field "Connection ID": <YOUR CONNECTION> and finally
 	3. save the configuration
 2. "Configuration Mode" select "Static (from configuration)"
-3. "Table name": "TECHED2021DAT160VII#TECHED2021DAT160VII"."TECHED2021_DEVICES_WEATHERSTATION_TAXY"
+3. "Table name": <YOUR SCHEMA>.<YOUR TABLE>
 4. "Statement type": Upsert
 
 The operator takes the metadata and the data from the incoming data and saves it to the corresponding table columns. 
@@ -222,7 +255,7 @@ Before you can run the pipeline you have to save it. Because you are working in 
 For running the pipeline you click on the "Run"-button at the top of the graph canvas. 
 ![Run pipeline](./images/run_pipeline.png)
 
-**PLEASE DO NOT start the pipeline**. The SAP Data Intelligence cluster of this workshop might not have the capacity to run all pipelines at the same time. 
+The SAP Data Intelligence cluster of this workshop might not have the capacity to run all pipelines at the same time in a timely manner. In case it takes too long we have entered the data already. 
 
 
 ## Summary
