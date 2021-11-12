@@ -65,7 +65,7 @@ The transformation is done with a script in a custom operator. You can peek into
 
 ![Open script panel](./images/open_script.png).
 
-Please be aware when you change the script in the pipeline context you branch the code from the basic custom operator script and it is stored with the pipeline. Further on if the script of the custom operator is changed it will not be overtaken by the "pipeline"-custom operator script.  
+Please be aware when you change the script in the pipeline context you branch the code from the basic custom operator script to the pipeline. That means that the script of the operator is copied to the pipeline. Further on, if the script of the custom operator is changed it will not be overtaken by the "pipeline"-custom operator script.  
 
 The transformed data is finally stored in an object store by the "Write File"-operator. The configuration is quite self-explaining. You have to select the connection from the already define connections in the Connection Management. For more information you can read the manual of the operator.  
 
@@ -75,13 +75,16 @@ The final operator "Graph Terminator" is completing the pipeline once it gets a 
 
 ![Any Datatype](./images/any_datatype.png).
 
+**Please be noted,** 
+
+that the configuration of this pipeline has not been adapted to the data sources connected with the Connection Management. The result of this pipeline has already been stored in the target database used in the following exercises. We have been told from SAP legal that getting data from public data sources in a workshop needs to be officially approved.
 
 
 ### Pipeline Download Weather Data 
 
 The other pipeline is more complex that reads the weather data from the weather stations of interest (A nearby installed device). The process is 
 
-1. Get all weather stations from a HANA table "DEVICE_WEATHERSTATION" by an SQL-statement.
+1. Get all weather stations from a HANA table (like the one you create in the next excercise: TECHED2021DAT160#TECHED2021DAT160|TECHED2021\_DEVICES\_WEATHERSTATION\_TAXY) by an SQL-statement.
 2. Creates an URL with a Custom Operator
 3. Sends the created URL to the inport "inRequest" of the "HTTP Client" operator that executes the GET request. The output "zip"-file is send to a Custom Operator.
 4. Unzips the downloaded data, extracts one file and transform this into a table-format.
@@ -93,6 +96,10 @@ The other pipeline is more complex that reads the weather data from the weather 
 ![Device Weather Pipeline](./images/device_weather_pipeline.png).
 
 It is a pipeline that creates steadily a data stream by sending URLs to the HTTP and the resulting data is finally send to the HANA DB. The data messages carries kind of message metadata and the actual data. In the metadata attributes there is variable that tells if this message is the last message that finally triggers the last operator to complete the pipeline. Without stopping actively a pipeline the process runs continously. 
+
+**Please be noted,** 
+
+that the configuration of this pipeline has not been adapted to the data sources connected with the Connection Management. The result of this pipeline has already been stored in the target database used in the following exercises. We have been told from SAP legal that getting data from public data sources in a workshop needs to be approved officially.  
 
 
 ## Exercise 1.2 Create New Pipeline for Advanced Processing
@@ -155,7 +162,8 @@ In the configuration panel you
 4. Edit the "Columns" and add three Collumns
 	1. SERIAL_NO
 	2. LATITUDE
-	3. LONGITUDE
+	3. LONGITUDE.
+	This step is necessary because this basic operator does not a pre-read of the data source during design time like the operators of the "Structured Data Operators" are doing. 
 ![Add columns](./images/add_columns.png)
 
 Remark: With the operators of the category "Structured Data Operator" it is much more convenient because it reads already the metadata from the data source. 
