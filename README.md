@@ -66,12 +66,13 @@ Publicly available Data for ["Deutscher Wetterdienst"](https://www.dwd.de)
 
 No knowledge on both SAP Data Intelligence and SAP Data Warehouse Cloud is needed to follow this tutorial.
 
-Registration to get URL, user and password
+Registration to get URL, user and password:
 
-  * Getting login credentials to SAP Data Intelligence: [http://workshop_registration.cfapps.eu10.hana.ondemand.com/register/dat160](http://workshop_registration.cfapps.eu10.hana.ondemand.com/register/dat160)
-  
-   In general 15min before the workshop starts the registration is open.
-  * **Chrome** browser is recommended for using SAP Data Intelligence and SAP Data Warehouse Cloud 
+- A self-registration link is shared at the beginning of each session.   
+
+Recommended browser:   
+
+- **Chrome** browser is recommended for using SAP Data Intelligence and SAP Data Warehouse Cloud 
 
 ## Exercises
 
