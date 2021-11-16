@@ -1,3 +1,8 @@
+<!--
+  SPDX-FileCopyrightText: 2021 Thorsten Hapke <thorsten.hapke@sap.com>
+
+  SPDX-License-Identifier: Apache-2.0
+-->
 # Exercise 1 - SAP Data Intelligence 
 
 In this exercise you learn how to download data from external data sources of unusual format that needs some pre-pocessing before it is stored to a SAP Data Intelligence managed data source (Exercise 1.1). In the second Exercise you create a pipeline with a more complex processing. 

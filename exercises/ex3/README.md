@@ -1,3 +1,8 @@
+<!--
+  SPDX-FileCopyrightText: 2021 Thorsten Hapke <thorsten.hapke@sap.com>
+
+  SPDX-License-Identifier: Apache-2.0
+-->
 # Exercise 3 - Build an analytical View in SAP Data Warehouse Cloud and use SAP Analytics Cloud for Consumption Purposes
 
 In this exercise, we will make use of the consolidated, local (relational) SAP Data Warehouse Cloud table (cf. [Exercise 2](../ex2/README.md)) to finally build an analytical view on top containing the considered KPIs Sun Duration as well Percipitation Height. This view itself can then be consumed using SAP Analytics Cloud going forward.

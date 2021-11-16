@@ -1,3 +1,8 @@
+<!--
+  SPDX-FileCopyrightText: 2021 Thorsten Hapke <thorsten.hapke@sap.com>
+
+  SPDX-License-Identifier: Apache-2.0
+-->
 # DAT 160 - Create and manage Data Flows using SAP Data Intelligence
 
 ## Description

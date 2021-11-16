@@ -1,3 +1,8 @@
+<!--
+  SPDX-FileCopyrightText: 2021 Thorsten Hapke <thorsten.hapke@sap.com>
+
+  SPDX-License-Identifier: Apache-2.0
+-->
 # Getting started
 
 Throughout all the exercises compiled in this repository, you will work with both a central SAP Data Intelligence tenant as well as a central SAP Data Warehouse Cloud tenant.
