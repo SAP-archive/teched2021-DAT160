@@ -77,7 +77,7 @@ Registration to get URL, user and password:
 
 Recommended browser:   
 
-- **Chrome** browser is recommended for using SAP Data Intelligence and SAP Data Warehouse Cloud 
+- **Chrome** browser is recommended for using SAP Data Intelligence and SAP Data Warehouse Cloud (incl. SAP Analytics Cloud as an optional part)
 
 ## Exercises
 
