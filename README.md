@@ -21,7 +21,7 @@ This session introduces attendees to build and end-to-end scenario from
 * using SAP Analytics Cloud to visualize a final consolidated result set containing all relevant external data assets described in the first point from above
 ![Overview Data](./images/dataflow.png)
 
-### User Case
+### Use Case
 
 The company **SenDi** is running devices distributed across Germany. They assume that the repair services of the devices might depend on the weather conditions and the product type. Before they start into a deeper analysis with a data scientist they like to visualize the weather conditions impact on the service frequency of product types to detect any obvious correlation. 
 
