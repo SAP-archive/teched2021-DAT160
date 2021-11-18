@@ -15,8 +15,8 @@ In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Wareh
 1. Logon to <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Warehouse Cloud </a><br> 
 <br>![](./images/ex2_0.png)
 2. Specify the following information:<br>
-   <br> E-Mail or User Name: `christian.tietz+XY@sap.com` (**Please replace XY by your assigned participant number!**)
-   <br> Password: `Welcome01`<br>
+   <br> E-Mail or User Name: `provided_mail_address@sap.com` (**Please replace XY by your assigned participant number!**)
+   <br> Password: `provided_password`<br>
    <br>to get to the SAP Data Warehouse Cloud Home Screen. 
 
 ## Exercise 2.2 - Integrate different Data Streams via building a comprehensive Data Flow in SAP Data Warehouse Cloud 
