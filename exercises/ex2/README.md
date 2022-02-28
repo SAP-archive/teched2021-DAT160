@@ -12,7 +12,7 @@ In this exercise, we will utilize SAP Data Warehouse Cloud to integrate differen
 
 In [Exercise 1](../ex1/README.md) you have pushed a result set to SAP Data Warehouse Cloud using SAP Data Intelligence Cloud. Apart from that, there are also three existing tables in HANA Cloud that we want to use to build a consolidated table containing all the relevant information we need to derive insights going forward. Before starting off with modeling in SAP Data Warehouse Cloud we will logon to SAP Data Warehouse Cloud for the first time.
 
-1. Logon to <a href="https://di-dwc-teched2021.eu10.hcs.cloud.sap/">SAP Data Warehouse Cloud </a><br> 
+1. Logon to <a href="https://dat160-internal.eu10.hcs.cloud.sap">SAP Data Warehouse Cloud </a><br> 
 <br>![](./images/ex2_0.png)
 2. Specify the following information:<br>
    <br> E-Mail or User Name: `provided_mail_address` (**Please replace XY by your assigned participant number!**)
