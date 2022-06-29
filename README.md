@@ -3,6 +3,8 @@
 
   SPDX-License-Identifier: Apache-2.0
 -->
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2021-DAT160)](https://api.reuse.software/info/github.com/SAP-samples/teched2021-DAT160)
+
 # DAT160 - Create and manage Data Flows using SAP Data Intelligence
 
 ## Description
